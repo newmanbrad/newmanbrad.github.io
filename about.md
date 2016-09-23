@@ -3,7 +3,7 @@ layout: page
 title: A Bit About Me
 permalink: /about/
 ---
-![Brad Newman]({{ site.url }}/assets/author.jpg)
+![Brad Newman]({{ site.url }}/assets/author.jpg){: .center-image }
 
 Hey there!  My name is Brad Newman.  I’m a developer based out of sunny Tampa, Florida.  I’ve been a developer for ten years now, and I am proficient in several languages and design patterns.  Currently, my passion revolves around Isomorphic Javascript.  I love learning new technologies and languages in my spare time.
 
