@@ -52,6 +52,9 @@ If you are building a large data intensive application. I highly recommend revie
 ## Getting Started
 
 Here are some great resources you can use.
-https://github.com/angular-redux/ng2-redux — Ng2Redux lets you easily connect your Angular 2 components with Redux, while still respecting the Angular 2 idiom.
-https://github.com/newmanbrad/ng2-redux-example — Example application build using Ng2Redux and shown in the images above.
-https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en — Redux dev tools for Chrome.
+
+[https://github.com/angular-redux/ng2-redux]() — Ng2Redux lets you easily connect your Angular 2 components with Redux, while still respecting the Angular 2 idiom.
+
+[https://github.com/newmanbrad/ng2-redux-example ]() — Example application build using Ng2Redux and shown in the images above.
+
+[https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en]() — Redux dev tools for Chrome.
