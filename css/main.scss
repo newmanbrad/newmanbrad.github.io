@@ -63,8 +63,8 @@ $on-laptop:        800px;
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.post-link:hover:before
-&.post-link:active:before {
+.post-link:hover:before,
+.post-link:active:before {
   transform: scale(0.9);
   opacity: 0;
 }
