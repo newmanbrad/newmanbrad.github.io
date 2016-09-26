@@ -24,7 +24,7 @@ Capturing state changes in your application can provide the ability to review an
 
 As a user moves through an application that is using Redux, we can capture router state change. This will allow us to visualize user navigation. We can identify specific workflows that could be defined in a clearer way. New tools like Redux VCR allow the ability to monitor / record a user session using Redux store interactions in real time. From a UX perspective, having the ability to monitor a user and watch them walk through complicated application interactions can be invaluable.
 
-![Data Flow]({{ site.url }}/assets/animated_app_shot.gif){: .center-image }
+![Data Flow]({{ site.url }}/assets/Sep-22-2016.gif){: .center-image }
 
 Above, you can see application state changes played like a movie with the use of time travel debugging. Also, take note that each action that is taken by the user is being displayed in the console visible in the bottom right corner.
 
