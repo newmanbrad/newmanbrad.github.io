@@ -4,18 +4,28 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Articles and Links</h1>
+  <h1 class="page-heading">Articles</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Links</h1>
+
+  <ul class="post-list">
+    <li>
+      <span class="post-meta">Jul 20, 2016</span>
+      <h2>
+        <a class="post-link" href="https://medium.com/cardinal-solutions/functional-concepts-in-javascript-6ab5b5eedc24#.3a4huaj8h" target="_blank">Functional Concepts in Javascript</a>
+      </h2>
+    </li>
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
