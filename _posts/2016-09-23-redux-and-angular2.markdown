@@ -36,7 +36,7 @@ The image above is of an application state tree displayed using the Redux debugg
 
 Using the Redux development tools package, you can see actions that have been performed on the application state in sequential order. When an action is dispatched, Redux captures and displays the previous application state, the action taken and the next application state. Working your way backward or forward through the state assures that your action is having the correct effect on the UI. This makes debugging a breeze. Saving the developer from filling out forms thousands of times to assure that the correct state transition has been a success.
 
-![Data Flow]({{ site.url }}/assets/Sep-22-2016.gif){: .center-image }
+![Data Flow]({{ site.url }}/assets/insight.png){: .center-image }
 
 ## What integration would look in your Angular 2 application
 
