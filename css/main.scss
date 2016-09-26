@@ -49,33 +49,7 @@ $on-laptop:        800px;
 }
 
 // links
-h2 a {
-  padding: 0 20px;
-  height: 45px;
-  line-height: 45px;
-}
-
-h2 a::before,
-h2 a::after {
-  position: absolute;
-  width: 45px;
-  height: 2px;
-  background: #fff;
-  content: '';
-  opacity: 0.2;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  pointer-events: none;
-}
-
-h2 a::before {
-  top: 0;
-  left: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  transform-origin: 0 0;
+a, a:hover, a:active {
+  cursor: pointer;
+  text-decoration: none;
 }
