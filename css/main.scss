@@ -47,3 +47,23 @@ $on-laptop:        800px;
 .social-media-list li {
   white-space: nowrap;
 }
+
+// links
+.post-link {
+  color: rgba(0,0,0,0.2);
+  font-weight: 700;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.post-link:before {
+  color: #fff;
+  content: (data-hover);
+  position: absolute;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.post-link:hover:before {
+  transform: scale(0.9);
+  opacity: 0;
+}
