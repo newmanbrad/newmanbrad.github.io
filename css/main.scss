@@ -50,33 +50,13 @@ $on-laptop:        800px;
 
 // links
 .post-link {
-  // color: rgba(0,0,0,0);
-  font-weight: 700;
-  text-shadow: none;
-  cursor: pointer;
   padding: 0 20px;
   height: 45px;
   line-height: 45px;
 }
 
-.post-link:before {
-  top: 0;
-  left: 0;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-transform-origin: 0 0;
-  -moz-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
-
-.post-link:hover:before,
-.post-link:active:before {
-  transform: scale(0.9);
-  opacity: 0;
-}
-
-.post-link:after {
+.post-link::before,
+.post-link::after {
   position: absolute;
   width: 45px;
   height: 2px;
@@ -89,36 +69,13 @@ $on-laptop:        800px;
   pointer-events: none;
 }
 
-.post-link::after{
-  right: 0;
-  bottom: 0;
+.post-link::before {
+  top: 0;
+  left: 0;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   transform: rotate(90deg);
-  -webkit-transform-origin: 100% 0;
-  -moz-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-}
-
-.post-link a:hover::before,
-.post-link a:hover::after,
-.post-link a:focus::before,
-.post-link a:focus::after {
-  opacity: 1;
-}
-
-.post-link a:hover::before,
-.post-link a:focus::before {
-  left: 50%;
-  -webkit-transform: rotate(0deg) translateX(-50%);
-  -moz-transform: rotate(0deg) translateX(-50%);
-  transform: rotate(0deg) translateX(-50%);
-}
-
-.post-link a:hover::after,
-.post-link a:focus::after {
-  right: 50%;
-  -webkit-transform: rotate(0deg) translateX(50%);
-  -moz-transform: rotate(0deg) translateX(50%);
-  transform: rotate(0deg) translateX(50%);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
