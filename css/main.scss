@@ -57,13 +57,14 @@ $on-laptop:        800px;
 }
 
 .post-link:before {
-  color: #fff;
+  color: #1756a9;
   content: (data-hover);
   position: absolute;
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.post-link:hover:before {
+.post-link:hover:before
+&.post-link:active:before {
   transform: scale(0.9);
   opacity: 0;
 }
