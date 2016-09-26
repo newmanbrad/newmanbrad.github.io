@@ -49,14 +49,14 @@ $on-laptop:        800px;
 }
 
 // links
-.post-link {
+h2 a {
   padding: 0 20px;
   height: 45px;
   line-height: 45px;
 }
 
-.post-link::before,
-.post-link::after {
+h2 a::before,
+h2 a::after {
   position: absolute;
   width: 45px;
   height: 2px;
@@ -69,7 +69,7 @@ $on-laptop:        800px;
   pointer-events: none;
 }
 
-.post-link::before {
+h2 a::before {
   top: 0;
   left: 0;
   -webkit-transform: rotate(90deg);
