@@ -38,6 +38,14 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
+body {
+  background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+  background-size:110px 200px;
+  background-repeat:repeat-x;
+}
+
 .center-image
 {
   margin: 0 auto;
