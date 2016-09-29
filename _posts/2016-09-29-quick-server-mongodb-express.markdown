@@ -17,7 +17,19 @@ from me. On to it.
 A simple REST API with MongoDB interaction can be found [here](https://github.com/newmanbrad/quick-mongo-rest-server). Instructions on getting up and 
 running are located below. Enjoy!
 
-### Installing MongoDB
+## Table of Contents  
+
+[Installing MongoDB](#installing-mongodb)
+
+[Up and Running](#up-and-running)  
+
+[Available Endpoints](#available-endpoints)  
+
+[Importing Sample Data](#importing-sample-data)  
+
+[Interaction](#interaction)  
+
+## Installing MongoDB
 
 If you have not already installed Mongo. You can find installs here: 
 
@@ -27,7 +39,7 @@ If you have not already installed Mongo. You can find installs here:
 If you are running Windows assure that you have the following environment variable:
  ```PATH=%PATH%;C:/Program Files/MongoDB/Server/3.2/bin/```
  
- **Note:** The path may vary depending on the current Mongo version.
+**Note:** The path may vary depending on the current Mongo version.
  
 #### Mac - After Install
 You will need to set a Path variable in you .bash_profile in order to start Mongo from the command line.
@@ -40,9 +52,10 @@ echo "PATH=/your/path/here/bin/:$PATH" >> ~/.bash_profile
 . ~/.bash_profile
 ```
 
-### Up and Running
 
-I have created an example schema called users. Feel free to skip to step 3 if you are not looking to add anything else.
+## Up and Running
+Below I will show a brief example of how to add additional models to your schema.
+I have created an example schema for users. Feel free to skip to step 3 if you are not looking to add anything else.
 
 ### Step 1
 
@@ -93,6 +106,12 @@ const config = {
 
 #### Step 5
 
+Don't forget to install packages:
+
+```
+npm install
+```
+
 Starting MongoDB: 
 
 ```
@@ -108,7 +127,7 @@ In a new terminal window.
 npm run start-server 
 ```
 
-### Available API Endpoints
+## Available Endpoints
 
 ```
  GET http://localhost/api/v1/user/count
@@ -124,8 +143,23 @@ npm run start-server
  DELETE http://localhost/api/v1/user/:id
 ```
 
+## Importing Sample Data
 
-### Interaction
+If you would like to import sample data. 
+
+#### Step 1
+Assure that MongoDB is running, or you have run the ```npm run mongo-mac``` in another terminal window.
+ 
+#### Step 2
+From the command line run the following:
+
+```
+mongoimport --db test --collection users --drop --file sampleData.json --jsonArray
+```
+
+**Note:** replace the word ```test``` in the string above with whatever you have named your database.
+
+## Interaction
 
 Need help building or interacting with your API? I highly suggest looking at [Postman](https://www.getpostman.com/) 
 
