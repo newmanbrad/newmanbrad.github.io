@@ -108,7 +108,7 @@ In a new terminal window.
 npm run start-server 
 ```
 
-### Available interactions:
+### Available API Endpoint
 
 ```
  GET http://localhost/api/v1/user/count
