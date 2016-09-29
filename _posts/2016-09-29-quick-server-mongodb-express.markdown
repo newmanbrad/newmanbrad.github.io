@@ -5,8 +5,6 @@ date:   2016-09-29 2:35:05 -0400
 categories: REST, NODE, Javascript, API, Mongodb
 ---
 
-## A quick REST API up and running in minutes
-
 ![Brad Newman]({{ site.url }}/assets/mongodb.png){: .center-image }
 
 Often I find myself without bandwidth and in need of interaction with an API for a front-end project I may be working on.
