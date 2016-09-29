@@ -7,6 +7,8 @@ categories: REST, NODE, Javascript, API, Mongodb
 
 ## A quick REST API up and running in minutes
 
+![Brad Newman]({{ site.url }}/assets/mongodb.png){: .center-image }
+
 Often I find myself without bandwidth and in need of interaction with an API for a front-end project I may be working on.
 Initially, I thought that I would be able to browse around Github and locate a repo that contained a quick and easy REST API I 
 could spin up with node. It is true that I found many potential candidates. However, the projects I found were bloated with extra stuff that
