@@ -76,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-09-29-quick-server-mongodb-express.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="327">
-                <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+              <first_editor relative-caret-position="342">
+                <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -310,7 +310,7 @@
       <workItem from="1474891857494" duration="5362000" />
       <workItem from="1474995846105" duration="1331000" />
       <workItem from="1475065258727" duration="196000" />
-      <workItem from="1475166481517" duration="1367000" />
+      <workItem from="1475166481517" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignor">
       <created>1474649844326</created>
@@ -529,11 +529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475168062323</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Post creation">
+      <created>1475168136718</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1475168136718</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12193000" />
+    <option name="totallyTimeSpent" value="12217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -795,8 +802,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-29-quick-server-mongodb-express.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="327">
-            <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <first_editor relative-caret-position="342">
+            <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
