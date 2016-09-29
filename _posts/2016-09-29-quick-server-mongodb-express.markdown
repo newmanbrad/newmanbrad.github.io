@@ -2,10 +2,10 @@
 layout: post
 title:  "A quick REST API up and running in minutes"
 date:   2016-09-29 2:35:05 -0400
-categories: REST, NODE, Javascript, API, Mongodb
+categories: REST, NODE, Javascript, API, MongoDB
 ---
 
-![Brad Newman]({{ site.url }}/assets/mongodb.png){: .center-image }
+![Brad Newman]({{ site.url }}/assets/mongoDB.png){: .center-image }
 
 Often I find myself without bandwidth and in need of interaction with an API for a front-end project I may be working on.
 Initially, I thought that I would be able to browse around Github and locate a repo that contained a quick and easy REST API I 
@@ -14,14 +14,14 @@ I really did not need or care about. When I am putting a schema together for a b
 testing. On that note, is it really that hard to add testing packages later on in the process? Well, I think that is enough ranting
 from me. On to it.
 
-A simple REST API with Mongodb interaction can be found [here](https://github.com/newmanbrad/quick-mongo-rest-server). Instructions on getting up and 
+A simple REST API with MongoDB interaction can be found [here](https://github.com/newmanbrad/quick-mongo-rest-server). Instructions on getting up and 
 running are located below. Enjoy!
 
-### Installing Mongodb
+### Installing MongoDB
 
 If you have not already installed Mongo. You can find installs here: 
 
-[Mongodb Site](https://www.mongodb.com/download-center#community)
+[MongoDB Site](https://www.mongoDB.com/download-center#community)
 
 #### Windows - After Install
 If you are running Windows assure that you have the following environment variable:
@@ -87,13 +87,13 @@ Modify the config file here: ```server/config.js```
 const config = {
     'database': 'test', // Whatever you would like to name your database.
     'port': 3000,
-    'host': 'mongodb://localhost:27017/'
+    'host': 'mongoDB://localhost:27017/'
 };
 ```
 
 #### Step 5
 
-Starting Mongodb: 
+Starting MongoDB: 
 
 ```
 Mac: npm run mongo-mac
