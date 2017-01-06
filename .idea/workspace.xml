@@ -92,8 +92,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-01-06-imperative-to-declarative-javascript.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="687">
-                <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+              <first_editor relative-caret-position="717">
+                <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -277,7 +277,7 @@
       <workItem from="1475065258727" duration="196000" />
       <workItem from="1475166481517" duration="4328000" />
       <workItem from="1475238626246" duration="172000" />
-      <workItem from="1483730055199" duration="1271000" />
+      <workItem from="1483730055199" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignor">
       <created>1474649844326</created>
@@ -552,11 +552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483731284462</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Post creation">
+      <created>1483731377334</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1483731377334</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16597000" />
+    <option name="totallyTimeSpent" value="16720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -964,8 +971,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-01-06-imperative-to-declarative-javascript.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="687">
-            <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <first_editor relative-caret-position="717">
+            <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

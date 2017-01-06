@@ -60,3 +60,7 @@ Some benefits to the changes above include:
 * Easier to maintain
 
 To make my program more declarative I have used 3 central higher order functions that are used in all functional languages; map, reduce and filter. These functions can be be used to abstract away problematic for loops. Just as we have done in the example above, using these cornerstone functions reduces the complexity of our application. It also makes our code easier for the next developer to figure out what is going on. Using this declarative style will provide your program consistency and predictability.
+
+### Conclusion
+
+Adding some declarative style to your project will allow you to unleash the real power of JavaScript.
