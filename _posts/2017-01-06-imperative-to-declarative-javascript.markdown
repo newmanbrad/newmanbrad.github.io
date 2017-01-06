@@ -50,9 +50,13 @@ Composing declarative Javascript is a different way to solve the same problems w
 We have taken the program from above and broken it down using some functional goodness. Above, I suggested that the business may want a different output from this program. You can see ( line 22 ) I have the ability now to specify which key I would like to pass for an average. Also, notice that the new functions that we have, average and pluck, are reusable and portable. They make no assumptions about what sort of data that is passed in.
 
 Some benefits to the changes above include:
-1. Easier to test
-2. Easier to reason about
-3. Easier to reuse
-4. Easier to maintain
+
+* Easier to test
+
+* Easier to reason about
+
+* Easier to reuse
+
+* Easier to maintain
 
 To make my program more declarative I have used 3 central higher order functions that are used in all functional languages; map, reduce and filter. These functions can be be used to abstract away problematic for loops. Just as we have done in the example above, using these cornerstone functions reduces the complexity of our application. It also makes our code easier for the next developer to figure out what is going on. Using this declarative style will provide your program consistency and predictability.
