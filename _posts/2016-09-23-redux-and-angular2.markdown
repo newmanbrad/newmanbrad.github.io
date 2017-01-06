@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Redux can do for your Angular 2 application"
+title:  "What Redux Can Do For Your Angular 2 Application"
 date:   2016-09-23 12:35:05 -0400
 categories: Redux, Angular, Javascript
 ---
