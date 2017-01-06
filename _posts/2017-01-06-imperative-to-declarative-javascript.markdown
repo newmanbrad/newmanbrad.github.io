@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Imperative to Declarative Javascript"
+title:  "Imperative To Declarative Javascript"
 date:   2017-01-06 2:35:05 -0400
 categories: Javascript, Functional Javascript
 ---
