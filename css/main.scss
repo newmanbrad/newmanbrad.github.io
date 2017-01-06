@@ -56,6 +56,10 @@ body {
   white-space: nowrap;
 }
 
+.icon > svg {
+  float: left;
+}
+
 // links
 a, a:hover, a:active {
   cursor: pointer;
