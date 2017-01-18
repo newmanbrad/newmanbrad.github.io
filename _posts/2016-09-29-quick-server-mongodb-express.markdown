@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Quick REST API Up And Running In Minutes"
+title:  "A Quick REST API Up and Running in Minutes"
 date:   2016-09-29 2:35:05 -0400
 categories: REST, NODE, Javascript, API, MongoDB
 ---
