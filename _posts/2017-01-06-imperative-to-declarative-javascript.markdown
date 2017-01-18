@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Imperative To Declarative Javascript"
+title:  "Imperative to Declarative Javascript"
 date:   2017-01-06 2:35:05 -0400
 categories: Javascript, Functional Javascript
 ---
-
-## Imperative To Declarative JavaScript
 
 Trying to incorporate the recently rediscovered functional paradigm into your next JavaScript project? You are not alone. It is easy to get trapped structuring your code in an object-oriented way. It is always hard to move out of our comfort zone and take on something new. For us to remain effective developers, this is what we must do. Live on the edge of our seat and continue to struggle, continue to fail and continue to grow as a developers.
 
